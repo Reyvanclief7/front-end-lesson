@@ -1,0 +1,83 @@
+* {
+  margin: 10px;
+}
+
+
+.sub_button {
+  background-color: rgb(232, 24, 24);
+  color: white;
+  border: none;
+  border-radius: 1.5px;
+  width: 110px;
+  height: 36px;
+}
+
+.sub_button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.sub_button:active {
+  opacity: 0.5;
+}
+
+.join_button {
+  background-color: white;
+  color: rgb(16, 140, 193);
+  border-color: rgb(16, 140, 193);
+  height: 36px;
+  width: 76px;
+  border: 1px solid;
+  font-weight: bold;
+}
+
+.join_button:hover {
+  background-color: rgb(28, 60, 187);
+  color: white;
+  cursor: pointer;
+}
+
+.join_button:active {
+  opacity: 0.7;
+}
+
+.tweet_button {
+  background-color: rgb(29, 155, 240);
+  width: 76px;
+  height: 36px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tweet_button:hover {
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.tweet_button:active {
+  opacity: 0.7;
+}
+
+
+.login_button {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(219, 54, 189);
+  border: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 3px 3px 2px rgb(35, 32, 34)
+}
+
+.login_button:hover {
+  cursor: pointer;
+}
+
+.login_button:active {
+  box-shadow: none;
+  margin-top: 13px;
+  margin-left: 13px;
+}
